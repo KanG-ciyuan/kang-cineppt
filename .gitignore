@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+auth.json
+credentials.json
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+work/
+outputs/

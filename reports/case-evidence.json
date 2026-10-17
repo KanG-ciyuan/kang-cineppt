@@ -1,0 +1,61 @@
+{
+  "case": "向海而行",
+  "date": "2026-10-17",
+  "predates_skill_packaging": true,
+  "slides": 2,
+  "aspect_ratio": "16:9",
+  "media": {
+    "codec": "H.264",
+    "width": 2560,
+    "height": 1440,
+    "fps": 60,
+    "seconds": 15.9,
+    "frames": 954,
+    "audio": "none",
+    "original_background_fps": 24,
+    "processing": "local motion interpolation"
+  },
+  "timing_seconds": [
+    {
+      "slide": 1,
+      "fade_start": 1.2,
+      "fade_duration": 0.9,
+      "all_text_visible": 2.1
+    },
+    {
+      "slide": 2,
+      "fade_start": 0.25,
+      "fade_duration": 0.9,
+      "all_text_visible": 1.15
+    }
+  ],
+  "verified_application": "Keynote",
+  "observations": [
+    "Final PPTX opened",
+    "Editable native group children observed",
+    "Video autoplay, text fade and automatic advance observed",
+    "Native movie exported",
+    "Owner watched and approved result"
+  ],
+  "not_verified": [
+    "Microsoft PowerPoint playback",
+    "WPS playback",
+    "This Skill installed",
+    "Other Agent environments",
+    "New end-to-end workflow"
+  ],
+  "source_artifacts": [
+    {
+      "role": "Original editable PPTX",
+      "sha256": "01ea0923bdfce6dd2110d9e99fc0b2d3d3adae8ce5ed44ffecd5ac2efa6ed9e6",
+      "bytes": 85216636
+    },
+    {
+      "role": "Original 2K promotional MP4",
+      "sha256": "20a511b94492006923e650c2e2d0a022c53f0858a3a049dc0c877bced6701c6b",
+      "bytes": 37463968
+    }
+  ],
+  "private_evidence_handling": "Raw conversations, machine paths, task IDs and account records excluded",
+  "provider_model": "MiniMax-H3"
+}

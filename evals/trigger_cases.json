@@ -1,0 +1,29 @@
+{
+  "status": "specification_only_not_executed",
+  "should_trigger": [
+    "参考视频做两页可编辑电影感动态PPT",
+    "全屏海浪背景先播放再淡入全部文字",
+    "修正动态PPT货轮循环回到起点并导出宣传片",
+    "Create cinematic motion slides with editable titles and an MP4 export"
+  ],
+  "should_not_trigger": [
+    "帮我翻译这封邮件",
+    "只做一份普通静态季度数据PPT",
+    "给视频剪掉开头两秒 不需要PPT",
+    "开发一个新的海浪动画引擎"
+  ],
+  "near_neighbor": [
+    {
+      "text": "只生成8秒帆船视频 不需要演示文件",
+      "decision": "route_to_video_generation"
+    },
+    {
+      "text": "解释为何电影海浪画面有层次",
+      "decision": "answer_analysis_without_authoring"
+    },
+    {
+      "text": "把本案例整理为Skill 不安装不调用API",
+      "decision": "package_static_only_do_not_run_creation_workflow"
+    }
+  ]
+}

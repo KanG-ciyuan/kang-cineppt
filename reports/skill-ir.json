@@ -1,0 +1,40 @@
+{
+  "schema": "kang-cineppt.contract.v1",
+  "name": "kang-cineppt",
+  "version": "0.1.0",
+  "owner": "Kang",
+  "job": "Cinematic motion PPT with editable typography and optional promotional MP4",
+  "inputs": [
+    "reference media",
+    "copy",
+    "page count and ratio",
+    "existing footage",
+    "target application",
+    "approved budget"
+  ],
+  "outputs": [
+    "PPTX master",
+    "background videos",
+    "optional MP4"
+  ],
+  "permissions": {
+    "paid_generation": "explicit scope and budget approval",
+    "publishing": "explicit approval after concrete review",
+    "installation": "not part of default workflow",
+    "credentials": "host-managed; never log"
+  },
+  "runtime": "Host-provided authorized presentation and media tools; no guaranteed adapter",
+  "evidence": {
+    "historical_case": "Keynote verified before packaging",
+    "package": "static checks only",
+    "installation": "not_run",
+    "cross_agent": "not_run",
+    "new_end_to_end": "not_run"
+  },
+  "resources": [
+    "references/",
+    "scripts/",
+    "docs/",
+    "evals/"
+  ]
+}

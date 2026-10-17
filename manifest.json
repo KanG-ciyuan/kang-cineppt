@@ -1,0 +1,48 @@
+{
+  "name": "kang-cineppt",
+  "version": "0.1.0",
+  "owner": "Kang",
+  "updated_at": "2026-10-17",
+  "status": "case-derived-release",
+  "maturity_tier": "case-derived-preview",
+  "license": "MIT",
+  "license_scope": "Authored code and documentation; demonstration media excluded",
+  "intent": {
+    "job": "Cinematic motion PPT with editable typography and optional promotional MP4",
+    "default_sample_slides": 2,
+    "outputs": [
+      "PPTX master",
+      "background videos",
+      "optional MP4"
+    ],
+    "exclusions": [
+      "animation engine",
+      "automatic paid retries",
+      "implicit publishing"
+    ]
+  },
+  "release_gates": {
+    "static_review": "passed_static_scope",
+    "human_publication_approval": "owner_confirmed",
+    "media_rights_confirmation": "owner_confirmed_reviewed_display_scope_only",
+    "installation": "not_run_by_request",
+    "new_end_to_end": "not_run_by_request"
+  },
+  "runtime_dependencies": {
+    "base": [
+      "A capable Agent and an authorized presentation-authoring surface",
+      "Rights-cleared source media"
+    ],
+    "optional": [
+      "Python 3.10+ for helpers",
+      "FFmpeg/FFprobe for local processing",
+      "An authorized video-generation API"
+    ]
+  },
+  "tested_environments": [],
+  "historical_case": {
+    "name": "向海而行",
+    "application": "Keynote",
+    "successful_before_skill_packaging": true
+  }
+}
