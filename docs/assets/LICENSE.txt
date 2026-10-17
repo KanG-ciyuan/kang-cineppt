@@ -1,0 +1,12 @@
+Demonstration media — excluded from the MIT code/documentation license
+
+This directory contains AI-generated ocean scenes and rendered derivatives of
+Kang's existing “向海而行 / Toward the Open Sea” case, plus repository cover art.
+The owner confirmed the reviewed case-study publication/display scope.
+This is not a stock-media or permissively licensed asset pack. No provider
+endorsement or independent legal clearance certificate is claimed.
+
+No blanket permission for redistribution, commercial reuse, model training,
+font redistribution, trademarks, or third-party rights is granted by the root
+MIT LICENSE. Rights in AI outputs depend on applicable law and service terms.
+See ../../THIRD_PARTY_NOTICES.md before publication or reuse.

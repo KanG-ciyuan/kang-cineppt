@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "owner": "Kang",
+  "approval": "Owner replied 确认 after receiving the concrete source archive, visual preview and publication checklist",
+  "scope": [
+    "Reviewed source tree",
+    "Existing case preview MP4/GIF and two slide screenshots",
+    "Cinematic cover",
+    "MIT code and documentation with separate demonstration media notice",
+    "Public GitHub repository and v0.1.0 source release"
+  ],
+  "not_included": [
+    "Original 2K movie",
+    "Original editable PPTX",
+    "Original third-party reference video",
+    "Credentials",
+    "Proprietary SDKs",
+    "System font files"
+  ],
+  "constraints_preserved": [
+    "No Skill installation",
+    "No generation API calls",
+    "No new test works",
+    "No new end-to-end tests",
+    "No existing Agent configuration changes"
+  ],
+  "rights_statement": "Records owner approval of reviewed publication/display scope only; no provider endorsement, blanket media reuse, or independent clearance certificate is asserted"
+}
