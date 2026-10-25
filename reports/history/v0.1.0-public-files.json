@@ -1,0 +1,201 @@
+{
+  "version": "0.1.0",
+  "scope": "all proposed source-tree files except this self-manifest and .git",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 156,
+      "sha256": "3187e7fac618ea7bea46f0e2ff978c504f808f222cd0677e75ff95b64ebf081b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 116,
+      "sha256": "b44e518a5a90423b05c53bbc877f6c3822ef083e49cf5d8c4eadd67f6364de40"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1061,
+      "sha256": "4e5ddc7f5a8e3df9ccd8d906f95919c103f14c9eee938edd074124a571619d8c"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 5338,
+      "sha256": "286c3df6c0a9c0e3fd0db8fd13565e65acd4040d92c40296f5fe42325aa029d3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5976,
+      "sha256": "7e77ff745e873a55f8f387399acb9c95e20087e57a4384ad9249ffb65e22d222"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5367,
+      "sha256": "c04b1576494b8c07295b5a3e60912fd202007c479378538e7e4cdaa54152bd29"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3156,
+      "sha256": "9e82a8582130453392d3c3975205af98d20de3344909dfe0ebc1487b00d7d188"
+    },
+    {
+      "path": "agents/interface.yaml",
+      "bytes": 440,
+      "sha256": "bff5ffba2ab8c974af31577f41654b41d8c7b107bf8ffb517dbdde0954fc5e31"
+    },
+    {
+      "path": "docs/CASE-STUDY.md",
+      "bytes": 2122,
+      "sha256": "d616f1d6f182191bf7d3393f0ab745b05f6cb4ac0c24eba15151d4fb612477c9"
+    },
+    {
+      "path": "docs/GITHUB-METADATA.json",
+      "bytes": 609,
+      "sha256": "4ecd3eccc4c65d1257a96d00494f0b1d7dd5b5857c987c6ba585485b0d0bec0c"
+    },
+    {
+      "path": "docs/PUBLICATION-REVIEW.md",
+      "bytes": 1574,
+      "sha256": "2533777782a22ebd9e42efc3fdd5921b94859676a4cbf3430abe5b55286708c4"
+    },
+    {
+      "path": "docs/RELEASE-NOTES.md",
+      "bytes": 830,
+      "sha256": "b05af0b45eb18da59cd1c2bb54b653eddf4659c207f84cf248ff55d54814ead3"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1066,
+      "sha256": "4e77fd554e735d527ca09e607d92b459603d2c2132d2e2a9532072624b691b28"
+    },
+    {
+      "path": "docs/assets/LICENSE.txt",
+      "bytes": 750,
+      "sha256": "2c6f55d2f572430ed58cb78c0fd991409899c41bd18014f619820a5f960ad8a8"
+    },
+    {
+      "path": "docs/assets/cover-still.jpg",
+      "bytes": 220917,
+      "sha256": "842c06300e29e19f82389dae05284514c4e68fe0d284b748f20b556ec5e9347b"
+    },
+    {
+      "path": "docs/assets/cover.png",
+      "bytes": 1839116,
+      "sha256": "18230d62ae4371c33466f3c3d4e7ba0775defbdc0f66a3b6177d244c5d1660d5"
+    },
+    {
+      "path": "docs/assets/cover.svg",
+      "bytes": 296081,
+      "sha256": "a3859e8a17868883976db4ae2bcb8cdc85aeee840ba768a5717ab8c386890468"
+    },
+    {
+      "path": "docs/assets/demo.gif",
+      "bytes": 6674019,
+      "sha256": "4817da1dce861642570b6f9618df5a45a949ce857db1510bd44dccd276ce9062"
+    },
+    {
+      "path": "docs/assets/provenance.json",
+      "bytes": 2729,
+      "sha256": "43caa1f4cff1a3fd96f4ec05be2d42b584975dc23d806da8589a8a7b985e8fca"
+    },
+    {
+      "path": "docs/assets/slide-1.jpg",
+      "bytes": 189568,
+      "sha256": "74ef858c76de34507f8f0cc6e2060fe0c0f214f7ddec51a182b4b2c21c7075c0"
+    },
+    {
+      "path": "docs/assets/slide-2.jpg",
+      "bytes": 305810,
+      "sha256": "5c06b2f613e719c27e7f9a5824b9a1d3e6fc9e0d716d27f942e385846e2b2cf0"
+    },
+    {
+      "path": "docs/assets/xiang-hai-er-xing.mp4",
+      "bytes": 6213521,
+      "sha256": "636877f875a199a455586f2f816e7922c97e50895b5379bc86aaaeb35198de06"
+    },
+    {
+      "path": "evals/trigger_cases.json",
+      "bytes": 952,
+      "sha256": "e40b6730af37b4ce9ebd064acf771657c7244fe2a92b0181e31793e46e7b216f"
+    },
+    {
+      "path": "examples/brief.md",
+      "bytes": 659,
+      "sha256": "4d6442033843465260402042e83eb3bb3ce198baa2b9b1620c3bea094f68a47d"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1387,
+      "sha256": "09552223dd0b8196ac4179285a214fea3099d431c48ed6cf789faf2d602cf596"
+    },
+    {
+      "path": "references/acceptance.md",
+      "bytes": 2171,
+      "sha256": "a8c26252b12932423c6bbbc7289cf6713b7a440e3301fa2a6f6471c3083420fb"
+    },
+    {
+      "path": "references/media-recipes.md",
+      "bytes": 1608,
+      "sha256": "30bcd2e375c50e37d143e2d4ad8bf112903484ba269b45aafd43a9a8347c56f5"
+    },
+    {
+      "path": "references/native-authoring.md",
+      "bytes": 2088,
+      "sha256": "6d30baf3114fe4edd70ed9814117f25852dd558bb41aede2c1e47408e09ef2d7"
+    },
+    {
+      "path": "references/visual-standard.md",
+      "bytes": 1946,
+      "sha256": "572b9d8141e89ddff9a234e25d3df134fd0ffb5160530bbe5c6549dc22d3667f"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 2310,
+      "sha256": "7b12ed5924b9685f0ec34abc94c11d87a0be8f7f7c8bbdaddeb05a972b94c703"
+    },
+    {
+      "path": "reports/case-evidence.json",
+      "bytes": 1557,
+      "sha256": "167d8f1896e06989ecb15da45287aca829abc77859fd9f0eda3609f21434f6ce"
+    },
+    {
+      "path": "reports/creation-handoff.md",
+      "bytes": 1073,
+      "sha256": "6367caa9e8e326b36b7262510ed2eb11728c5f799e2600e6c1d934c557fe3123"
+    },
+    {
+      "path": "reports/publication-approval.json",
+      "bytes": 1006,
+      "sha256": "b0240ef525e1685194f693e1980b201d6c78aa78ed826a2e81e296d7606705f8"
+    },
+    {
+      "path": "reports/reuse-decision.md",
+      "bytes": 1244,
+      "sha256": "e9ab7b7e1d4338c9e53ea00f7ab7f318c605cbaa78f64bbaf963d011b4eeaf36"
+    },
+    {
+      "path": "reports/skill-ir.json",
+      "bytes": 1064,
+      "sha256": "9047667b5b2c5bee9032a121f1d8cc79827d5212e95e2113cec5e179fcb8138c"
+    },
+    {
+      "path": "reports/static-review.json",
+      "bytes": 2723,
+      "sha256": "f435990edb3719e7c5399ed9cc249121dd53590b7ceb4282bc478035f0ecf6e3"
+    },
+    {
+      "path": "scripts/check_package.py",
+      "bytes": 4294,
+      "sha256": "84164a181ee2966809b2593c724219e73bfe50539dd9c4c4d631397abb6ebf6e"
+    },
+    {
+      "path": "scripts/inspect_pptx.py",
+      "bytes": 4324,
+      "sha256": "db3c01777645921da221c02b0ca7fe19fb34685b6742df9c9d68a0014c40b80f"
+    },
+    {
+      "path": "scripts/prepare_background.py",
+      "bytes": 1920,
+      "sha256": "a1cd883156702fe151b73fe80d64bf306bfb65db2585dbbafff2ee63b4e7a935"
+    }
+  ]
+}

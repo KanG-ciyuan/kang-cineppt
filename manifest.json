@@ -1,9 +1,9 @@
 {
   "name": "kang-cineppt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "owner": "Kang",
-  "updated_at": "2026-10-17",
-  "status": "case-derived-release",
+  "updated_at": "2026-10-25",
+  "status": "case-library-release",
   "maturity_tier": "case-derived-preview",
   "license": "MIT",
   "license_scope": "Authored code and documentation; demonstration media excluded",
@@ -23,8 +23,8 @@
   },
   "release_gates": {
     "static_review": "passed_static_scope",
-    "human_publication_approval": "owner_confirmed",
-    "media_rights_confirmation": "owner_confirmed_reviewed_display_scope_only",
+    "human_publication_approval": "owner_requested_new_case_integration",
+    "media_rights_confirmation": "case_specific_source_licenses_recorded",
     "installation": "not_run_by_request",
     "new_end_to_end": "not_run_by_request"
   },
@@ -44,5 +44,19 @@
     "name": "向海而行",
     "application": "Keynote",
     "successful_before_skill_packaging": true
+  },
+  "case_library": {
+    "showcase": [
+      "向海而行",
+      "乘势而上",
+      "山河在心"
+    ],
+    "exploration": [
+      "天地之间"
+    ],
+    "source_route": "AI or free licensed real footage",
+    "verified_applications": [
+      "Keynote (case-specific only)"
+    ]
   }
 }

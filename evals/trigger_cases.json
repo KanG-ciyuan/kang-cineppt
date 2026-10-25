@@ -4,13 +4,16 @@
     "参考视频做两页可编辑电影感动态PPT",
     "全屏海浪背景先播放再淡入全部文字",
     "修正动态PPT货轮循环回到起点并导出宣传片",
-    "Create cinematic motion slides with editable titles and an MP4 export"
+    "Create cinematic motion slides with editable titles and an MP4 export",
+    "先审看免费实拍视频，再做两页可编辑汇报收尾PPT",
+    "做庄重爱国主题动态PPT并导出宣传MP4"
   ],
   "should_not_trigger": [
     "帮我翻译这封邮件",
     "只做一份普通静态季度数据PPT",
     "给视频剪掉开头两秒 不需要PPT",
-    "开发一个新的海浪动画引擎"
+    "开发一个新的海浪动画引擎",
+    "只把这段爱国视频裁成18秒，不需要PPT"
   ],
   "near_neighbor": [
     {

@@ -1,7 +1,7 @@
 {
   "schema": "kang-cineppt.contract.v1",
   "name": "kang-cineppt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "owner": "Kang",
   "job": "Cinematic motion PPT with editable typography and optional promotional MP4",
   "inputs": [
@@ -10,7 +10,8 @@
     "page count and ratio",
     "existing footage",
     "target application",
-    "approved budget"
+    "approved budget",
+    "per-asset source and license records"
   ],
   "outputs": [
     "PPTX master",
@@ -29,7 +30,8 @@
     "package": "static checks only",
     "installation": "not_run",
     "cross_agent": "not_run",
-    "new_end_to_end": "not_run"
+    "new_end_to_end": "not_run",
+    "case_library": "Keynote case records plus explicitly labeled exploration; not independent Skill reproduction"
   },
   "resources": [
     "references/",

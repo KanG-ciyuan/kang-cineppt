@@ -1,0 +1,109 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-25",
+  "original_case": "case-evidence.json",
+  "new_cases": [
+    {
+      "title": "乘势而上",
+      "slug": "chengshi-er-shang",
+      "status": "showcase",
+      "slides": 2,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "fps": 30,
+      "size": [
+        1920,
+        1080
+      ],
+      "pipeline": "Keynote native movie export then trim/music",
+      "case_application_record": "Keynote, production records dated 2026-10-24/25",
+      "publication_recheck": "existing files, hashes and media metadata only",
+      "skill_installation": "not_run",
+      "cross_agent": "not_run",
+      "PowerPoint": "unverified",
+      "WPS": "unverified",
+      "files": [
+        {
+          "name": "chengshi-er-shang-18s-1080p.mp4",
+          "role": "designed film",
+          "bytes": 21784186,
+          "sha256": "74aadb7b8b38656143884b45ecb2a31db098ec397ea870b30197296fd6241b34",
+          "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s-1080p.mp4"
+        },
+        {
+          "name": "chengshi-er-shang-18s.pptx",
+          "role": "editable designed presentation",
+          "bytes": 24117911,
+          "sha256": "5576295ebf4467b428a33c7ec7212accc1b9dd577d8d50fc1ca03f0b43e9ce8c",
+          "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s.pptx"
+        }
+      ]
+    },
+    {
+      "title": "山河在心",
+      "slug": "shanhe-zaixin",
+      "status": "showcase",
+      "slides": 2,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 18,
+      "fps": 30,
+      "size": [
+        1920,
+        1080
+      ],
+      "pipeline": "Keynote native movie export then trim/music",
+      "case_application_record": "Keynote, production records dated 2026-10-24/25",
+      "publication_recheck": "existing files, hashes and media metadata only",
+      "skill_installation": "not_run",
+      "cross_agent": "not_run",
+      "PowerPoint": "unverified",
+      "WPS": "unverified",
+      "files": [
+        {
+          "name": "shanhe-zaixin-18s-1080p.mp4",
+          "role": "designed film",
+          "bytes": 14505033,
+          "sha256": "337f019326dfd7fdabd4293b1c77d1c031eb32bbc2f8e5dbf8fc024ab2d68cb8",
+          "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s-1080p.mp4"
+        },
+        {
+          "name": "shanhe-zaixin-18s.pptx",
+          "role": "editable designed presentation",
+          "bytes": 14433709,
+          "sha256": "d9647a241362b383774ad29e303c432fe19d3ff7919614b4023e32fdb616db66",
+          "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s.pptx"
+        }
+      ]
+    },
+    {
+      "title": "天地之间",
+      "slug": "tiandi-zhijian",
+      "status": "exploration",
+      "slides": 2,
+      "aspect_ratio": "16:9",
+      "duration_seconds": 14.4,
+      "fps": 30,
+      "size": [
+        1920,
+        1080
+      ],
+      "pipeline": "Independent FFmpeg composition, not native PPT export",
+      "case_application_record": "Keynote, production records dated 2026-10-24/25",
+      "publication_recheck": "existing files, hashes and media metadata only",
+      "skill_installation": "not_run",
+      "cross_agent": "not_run",
+      "PowerPoint": "unverified",
+      "WPS": "unverified",
+      "files": [
+        {
+          "name": "tiandi-zhijian-14.4s-1080p.mp4",
+          "role": "designed film",
+          "bytes": 11968012,
+          "sha256": "d9b29adac48dc3e13981e11d706009c3d95fea12a541c2e1be1ffe99c0a62489",
+          "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/tiandi-zhijian-14.4s-1080p.mp4"
+        }
+      ]
+    }
+  ],
+  "claim_boundary": "Existing production evidence only; not a new creation test or installation/reproduction test."
+}

@@ -1,28 +1,29 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "owner": "Kang",
-  "approval": "Owner replied 确认 after receiving the concrete source archive, visual preview and publication checklist",
+  "authorization": "Owner requested integration of the recent creations into the existing GitHub project.",
   "scope": [
-    "Reviewed source tree",
-    "Existing case preview MP4/GIF and two slide screenshots",
-    "Cinematic cover",
-    "MIT code and documentation with separate demonstration media notice",
-    "Public GitHub repository and v0.1.0 source release"
+    "Bilingual README and case library",
+    "Three new case records, two showcase examples and one labeled exploration",
+    "Real finished-film excerpts and screenshots",
+    "Two new editable PPTX examples and three MP4 release attachments",
+    "Workflow lessons, licensing records and static checks",
+    "Feature branch, PR integration and v0.2.0 release"
   ],
-  "not_included": [
-    "Original 2K movie",
-    "Original editable PPTX",
-    "Original third-party reference video",
+  "excluded": [
+    "Standalone stock footage/music",
+    "Fonts",
+    "Private project paths and correspondence",
     "Credentials",
-    "Proprietary SDKs",
-    "System font files"
+    "Proprietary tools",
+    "Original v0.1 full-size film and PPTX"
   ],
-  "constraints_preserved": [
-    "No Skill installation",
-    "No generation API calls",
-    "No new test works",
-    "No new end-to-end tests",
-    "No existing Agent configuration changes"
+  "not_run": [
+    "Skill installation",
+    "Agent configuration changes",
+    "New paid API calls",
+    "New creative works",
+    "New end-to-end creation tests"
   ],
-  "rights_statement": "Records owner approval of reviewed publication/display scope only; no provider endorsement, blanket media reuse, or independent clearance certificate is asserted"
+  "rights_boundary": "MIT for authored code/documents only; third-party media retain per-asset licenses."
 }

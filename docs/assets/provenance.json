@@ -1,60 +1,124 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-25",
   "assets": [
+    {
+      "path": "docs/assets/chengshi-er-shang/demo.gif",
+      "bytes": 2834889,
+      "sha256": "111a2be71115cca92e7ff04bb61fc95da1eb7e266782ff392645ff9b5fac9b5c",
+      "source": "existing finished 18s ocean film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/chengshi-er-shang/slide-1.jpg",
+      "bytes": 111165,
+      "sha256": "be5352d98db63f4550d0bc6ce59b8f001a3b736a62495775f47144bc1d7d548f",
+      "source": "existing finished 18s ocean film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/chengshi-er-shang/slide-2.jpg",
+      "bytes": 124527,
+      "sha256": "0f90f27e898e85aeeab876c7e3caf0cc06335f603fb6680d238eb9c1ad7042c0",
+      "source": "existing finished 18s ocean film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
     {
       "path": "docs/assets/cover-still.jpg",
       "bytes": 220917,
       "sha256": "842c06300e29e19f82389dae05284514c4e68fe0d284b748f20b556ec5e9347b",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/cover.png",
-      "bytes": 1839116,
-      "sha256": "18230d62ae4371c33466f3c3d4e7ba0775defbdc0f66a3b6177d244c5d1660d5",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "bytes": 1839237,
+      "sha256": "51a9be9f67b5d8f03ca9aaf9440950d1d86ed50636145e74ca983c574a97bf71",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/cover.svg",
-      "bytes": 296081,
-      "sha256": "a3859e8a17868883976db4ae2bcb8cdc85aeee840ba768a5717ab8c386890468",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "bytes": 296082,
+      "sha256": "951b7cbf20b879a16f65a4d4183a6fcd9e711d438de80b569ce04a2e6859dad4",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/demo.gif",
       "bytes": 6674019,
       "sha256": "4817da1dce861642570b6f9618df5a45a949ce857db1510bd44dccd276ce9062",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/demo.gif",
+      "bytes": 1284122,
+      "sha256": "81915dd3fb461741e9e51eed1e0082da33915b2494afc154ef660195194fcd3f",
+      "source": "existing finished 18s flag/Great Wall film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/slide-1.jpg",
+      "bytes": 40044,
+      "sha256": "3a40ac3d621dd0885f47b756b32256748f3d166669882f18b3aa7471905f27ef",
+      "source": "existing finished 18s flag/Great Wall film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/slide-2.jpg",
+      "bytes": 48711,
+      "sha256": "097c2085c711daf36decbf1f5f61c85d7bc86e8fd169b8142faf3f7578f758a2",
+      "source": "existing finished 18s flag/Great Wall film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/slide-1.jpg",
       "bytes": 189568,
       "sha256": "74ef858c76de34507f8f0cc6e2060fe0c0f214f7ddec51a182b4b2c21c7075c0",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/slide-2.jpg",
       "bytes": 305810,
       "sha256": "5c06b2f613e719c27e7f9a5824b9a1d3e6fc9e0d716d27f942e385846e2b2cf0",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/tiandi-zhijian/slide-1.jpg",
+      "bytes": 73740,
+      "sha256": "a6aeefcc5ee2413a9def02da96d45c08fd7ce17d8924f06e1e928cd49589fba1",
+      "source": "existing 14.4s exploration film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
+      "new_ai_generation": false
+    },
+    {
+      "path": "docs/assets/tiandi-zhijian/slide-2.jpg",
+      "bytes": 52636,
+      "sha256": "467d1e7d1415b11e677a94974b6a7ff94577c5022f92324bd566fb5149b66a15",
+      "source": "existing 14.4s exploration film using Pexels footage",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     },
     {
       "path": "docs/assets/xiang-hai-er-xing.mp4",
       "bytes": 6213521,
       "sha256": "636877f875a199a455586f2f816e7922c97e50895b5379bc86aaaeb35198de06",
-      "source": "existing case footage or original repository typography",
-      "license": "demonstration_media_excluded_from_MIT",
+      "source": "existing original AI ocean case or repository cover with version typography refreshed",
+      "license": "case-specific media rights; excluded from MIT",
       "new_ai_generation": false
     }
   ],
@@ -62,5 +126,6 @@
   "fonts_bundled": false,
   "cover": "Native repository SVG typography over a frame from existing AI footage; PNG rendered for README",
   "preview": "Same original film transcoded to 720p30 MP4 and 480px 8fps GIF; no new scenes",
-  "public_display_rights_confirmation": "owner_confirmed_reviewed_display_scope_only; no blanket reuse license"
+  "public_display_rights_confirmation": "owner_confirmed_reviewed_display_scope_only; no blanket reuse license",
+  "new_previews": "Two silent non-looping GIFs, 480x270 at 8fps, excerpt source [0,3.2s) and [9,12.2s); screenshots from existing final films."
 }

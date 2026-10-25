@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "date": "2026-10-17",
-  "scope": "offline static review plus visual inspection of static README/cover",
+  "version": "0.2.0",
+  "date": "2026-10-25",
   "status": "pass_for_static_scope_only",
   "package_lint": {
     "kind": "static_review_only",
     "ok": true,
+    "files_checked": 61,
     "python_syntax_checked": 3,
     "findings": [],
     "not_run": [
@@ -22,58 +22,38 @@
     "ok": true,
     "failures": [],
     "warnings": [
-      "README may be missing install command",
       "README may be missing verification commands",
+      "README may be missing troubleshooting",
       "adapter target not declared: openai",
       "adapter target not declared: claude",
       "adapter target not declared: agent-skills-compatible"
-    ],
-    "warning_decisions": [
-      "Installation instructions intentionally remain generic: repository is unpublished and no install was permitted.",
-      "Project-owned check_package.py is used; the private Meta Skill validator is not redistributed.",
-      "Only generic instruction metadata is declared; no untested platform support is claimed."
     ]
   },
-  "yaml_parsed": true,
-  "python_ast_parsed": 3,
-  "git_staged_whitespace_check": "pass",
-  "secret_and_private_marker_findings": [],
-  "root_skill_entrypoints": 1,
-  "redistribution": {
-    "proprietary_sdk_bundled": false,
-    "font_files_bundled": false,
-    "reference_video_bundled": false,
-    "credentials_bundled": false
+  "warning_decisions": [
+    "README includes read-only verification commands and a Chinese 常见问题 section; keyword-based warnings do not indicate missing content.",
+    "Only the generic adapter is declared; untested Agent compatibility targets are intentionally omitted."
+  ],
+  "existing_media_rechecked": {
+    "videos": 3,
+    "editable_release_pptx": 2,
+    "new_showcase_gifs": 2,
+    "case_screenshots": 6,
+    "source_assets_redistributed": false,
+    "standalone_music_redistributed": false,
+    "font_files_redistributed": false,
+    "PPTX_private_path_findings": 0
   },
-  "media_metadata_checked": {
-    "existing_film_preview": "H.264,1280x720,30fps,15.966667s,6213521 bytes",
-    "gif": "480x270,8fps,127 frames,6674019 bytes; no loop extension"
-  },
-  "visual_review": "Cover and static README images inspected; page assets loaded. This is not Skill runtime validation.",
+  "visual_review": "Local README rendered with project cover, actual film excerpts, download entries and evidence boundaries; final live GitHub rendering checked separately after merge.",
   "not_run": [
     "Skill installation",
     "Agent activation",
-    "provider API calls",
-    "new test works",
-    "creative/helper runtime tests",
-    "new end-to-end tests",
+    "Cross-Agent reproduction",
+    "New video-generation API calls",
+    "New creative works",
+    "Creative helper runtime tests",
+    "New end-to-end workflow",
     "PowerPoint playback",
     "WPS playback"
   ],
-  "remote_actions": {
-    "repository_created": false,
-    "files_uploaded": false,
-    "release_published": false
-  },
-  "as_of": "Pre-publication static review, before subsequent owner approval",
-  "owner_approval_update": {
-    "status": "owner_confirmed_reviewed_publication_and_case_display_scope",
-    "installation": "still not run",
-    "cross_agent": "still not run",
-    "new_end_to_end": "still not run"
-  },
-  "release_blocks_at_review_time": [
-    "Owner approval of exact public contents",
-    "Confirmation of media display rights and relevant provider disclosure terms"
-  ]
+  "public_claim_boundary": "Existing case production records only; static package checks are not runtime or installation evidence."
 }

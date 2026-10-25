@@ -1,12 +1,7 @@
-Demonstration media — excluded from the MIT code/documentation license
+Demonstration assets are excluded from the root MIT code/documentation license.
 
-This directory contains AI-generated ocean scenes and rendered derivatives of
-Kang's existing “向海而行 / Toward the Open Sea” case, plus repository cover art.
-The owner confirmed the reviewed case-study publication/display scope.
-This is not a stock-media or permissively licensed asset pack. No provider
-endorsement or independent legal clearance certificate is claimed.
+Original root assets (including the cover and xiang-hai-er-xing.mp4): AI-generated ocean case and rendered derivatives, retained within the v0.1 display scope. No blanket media reuse permission or provider endorsement is granted.
 
-No blanket permission for redistribution, commercial reuse, model training,
-font redistribution, trademarks, or third-party rights is granted by the root
-MIT LICENSE. Rights in AI outputs depend on applicable law and service terms.
-See ../../THIRD_PARTY_NOTICES.md before publication or reuse.
+chengshi-er-shang/, shanhe-zaixin/, tiandi-zhijian/: excerpts and screenshots of designed presentation films using Pexels footage. Footage remains subject to the Pexels License. The full films in the v0.2.0 Release also contain synchronized Mixkit music under its Stock Music Free License. The demonstration GIFs have no audio.
+
+Do not treat these files or embedded PPTX media as an MIT stock-media library. No source footage, standalone full music or system font files are included. See ../../THIRD_PARTY_NOTICES.md and ../MEDIA-SOURCES.md.
