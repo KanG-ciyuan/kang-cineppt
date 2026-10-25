@@ -4,101 +4,99 @@
 
 # kang-cineppt
 
-**让海浪铺满画面，让文字按节奏出现。**<br>
-AI电影感动态PPT制作技能 · 可编辑母版 + 宣传成片
+**把动态画面，做成工作中用得上的 PPT 收尾。**<br>
+电影感背景 · 可编辑中文排版 · 原生淡入 · 宣传视频
 
-![Version](https://img.shields.io/badge/version-v0.1.0-1a455d?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.2.0-1a455d?style=flat-square)
 [![Code MIT](https://img.shields.io/badge/code-MIT-d5b37a?style=flat-square)](LICENSE)
-[![Case Keynote](https://img.shields.io/badge/case-Keynote%20checked-277c86?style=flat-square)](docs/VALIDATION.md)
+[![Case Keynote](https://img.shields.io/badge/cases-Keynote%20checked-277c86?style=flat-square)](docs/VALIDATION.md)
 
-[中文](README.md) · [English](README.en.md) · [制作流程](references/workflow.md) · [验证边界](docs/VALIDATION.md)
+[中文](README.md) · [English](README.en.md) · [小白教程](docs/QUICK-TUTORIAL.md) · [案例与下载](docs/CASE-LIBRARY.md) · [制作流程](references/workflow.md)
 
 </div>
 
-把AI或已有的视频背景、可编辑中文排版、克制的原生淡入和真实放映节奏组合起来。交付PPTX母版，也可导出用于宣传的MP4。
+将全屏视频、原生可编辑文字和克制的淡入组合为两页动态 PPT。可以用于汇报结尾，也可导出宣传 MP4。支持已有素材、免费授权实拍素材，或经费用确认后的 AI 视频生成。
 
-## 先看实际成片
+## 先看新作品
 
-[![向海而行实际成片的动态预览](docs/assets/demo.gif)](docs/assets/xiang-hai-er-xing.mp4)
-
-**点击预览查看完整MP4。** 动态预览来自已完成的《向海而行》，背景为AI生成，GIF仅是低帧率展示副本。[案例与制作记录](docs/CASE-STUDY.md)
-
-| 向海而行 | 共赴远方 |
+| 《乘势而上》：海洋与团队汇报 | 《山河在心》：庄重主题汇报 |
 |---|---|
-| ![货轮PPT效果](docs/assets/slide-1.jpg) | ![巨浪帆船PPT效果](docs/assets/slide-2.jpg) |
-| 视频先开始，全部文字统一淡入 | 巨浪与帆船建立尺度反差，字幕及早完成 |
+| [![乘势而上真实成片节选](docs/assets/chengshi-er-shang/demo.gif)](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s-1080p.mp4) | [![山河在心真实成片节选](docs/assets/shanhe-zaixin/demo.gif)](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s-1080p.mp4) |
+| 巨浪与微小冲浪者形成尺度反差，第二页回到深蓝海面的留白。 | 国旗明确主题，长城展开空间，文字在画面建立后依次淡入。 |
+| [完整视频 · 18秒](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s-1080p.mp4) · [可编辑PPTX](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s.pptx) | [完整视频 · 18秒](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s-1080p.mp4) · [可编辑PPTX](https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s.pptx) |
 
-**证据范围：** 原案例已完成制作、Keynote放映与导出，作者观看认可。v0.1 Skill包仅完成静态审查；未安装、未在其他Agent复现、未生成新测试作品，也未运行新的端到端测试。v0.1.0是基于实际案例整理的早期方法包，安装与跨环境能力不作已验证声明。
+上方 GIF 均为**真实最终成片的低帧率节选**，不是完整视频的流畅度示范。完整视频为 1080p、30fps，取自实际 Keynote 导出后裁切、配乐。新案例均使用免费许可实拍素材，没有调用付费视频生成模型。[逐条来源与授权](docs/MEDIA-SOURCES.md)
+
+### 原案例《向海而行》
+
+[![向海而行实际成片动态预览](docs/assets/demo.gif)](docs/assets/xiang-hai-er-xing.mp4)
+
+AI 海洋背景与原生文字结合的起点案例。[完整预览](docs/assets/xiang-hai-er-xing.mp4) · [两页效果与制作记录](docs/CASE-STUDY.md)
+
+《天地之间》另列为[探索与迭代](docs/cases/tiandi-zhijian.md)：保留雪山、云雾山路与排版经验，也保留“第一版冲击力不足”的反馈，不把探索版列为已获审美认可的成功作品。
+
+**验证边界：** 作品有各自的 Keynote 打开、放映或导出记录；Skill 包仍只完成静态检查。未安装 Skill、未在其他 Agent 环境复现，也未为此次发布运行新的端到端测试。PowerPoint/WPS 的实际放映尚未验证。[完整验证记录](docs/VALIDATION.md)
 
 ## 你可以直接这样说
 
-- “参考这个视频，先做两页电影感动态PPT，标题和线条都能编辑。”
-- “整页都是流动海面，船先入场，再让所有文字淡入。”
-- “货轮不要循环回到起点，播放结束直接切到下一页。”
-- “最后我要发宣传视频，同时保留PPTX母版；付费生成前先确认预算。”
+- “先找两段免费授权的横屏实拍素材，让我确认动态和色调后，再做两页汇报收尾 PPT。”
+- “巨浪要有尺度反差，整页都在动，文字要能编辑。”
+- “做庄重的爱国主题结尾，国旗和长城都可以，先看素材。”
+- “视频先播放，文字尽早完整淡入，不要倒放或循环回到起点。”
+- “我最后要发 MP4，也要保留 PPTX；付费调用前确认费用。”
 
-## 它负责什么
+## 如何使用
 
-参考分析 → 动态素材计划 → 费用确认 → 背景生成或复用 → 本地调色补帧 → 原生PPT排版和动画 → 目标软件实播 → 可选MP4导出。
-
-它提供制作判断和编排方法。实际画面生成、母版构建和影片导出由宿主已合法提供的工具完成；不附模型、演示软件、专有SDK或自动上传服务。
-
-## 前置条件
-
-- [ ] 一个能够读取Skill指令并操作文件/演示软件的Agent；本包尚未验证任何Agent安装适配。
-- [ ] 已授权的演示工具或原生软件。Keynote仅有案例级验证，PowerPoint/WPS需自行实播。
-- [ ] 具有使用与展示权的背景素材。新AI视频生成需要自己的服务账户、实际费用确认和明确授权。
-- [ ] 可选Python 3.10+：`python3 --version`；辅助脚本只用标准库。
-- [ ] 可选FFmpeg/FFprobe：`ffmpeg -version`、`ffprobe -version`，用于本地修整与媒体检查。
-
-字体可替换为目标机器合法可用的字体，替换后核对版式。本包不要求安装私有`@oai/artifact-tool`。
-
-## 获取与使用
-
-阅读根目录[SKILL.md](SKILL.md)，由你使用的Agent按其官方方式载入。把完整目录保持在一起，以便读取`references/`。
-
-公开仓库：[KanG-ciyuan/kang-cineppt](https://github.com/KanG-ciyuan/kang-cineppt)。可下载[Release源码包](https://github.com/KanG-ciyuan/kang-cineppt/releases/tag/v0.1.0)。
-
-常用Agent Skills CLI写法如下，**本项目未执行该安装命令，也未验证安装与激活**：
+先读 [SKILL.md](SKILL.md)，由你使用的 Agent 按官方机制载入完整目录。下载 [v0.2.0 源码与案例](https://github.com/KanG-ciyuan/kang-cineppt/releases/tag/v0.2.0)。常见 Agent Skills CLI 写法如下，**本项目未执行或验证该安装命令**：
 
 ```bash
 npx skills add KanG-ciyuan/kang-cineppt
 ```
 
-请按你的Agent官方机制选择是否安装。本次发布没有安装Skill或修改作者的Agent配置。
+需要能够操作文件与演示软件的 Agent，以及已授权的原生 PPT 制作能力。Keynote 只有案例级证据，PowerPoint/WPS 需自行实播。可选辅助工具为 Python 3.10+、FFmpeg/FFprobe；不附专有 SDK、字体、模型或演示软件，不要求安装私有 `@oai/artifact-tool`。
+
+纯视频剪辑、普通静态 PPT 和开发动画系统不属于此 Skill。
+
+## 制作流程
+
+明确汇报用途与文案 → 筛选并核对素材许可 → 动态预览与确认 → 视频修整 → 原生文字排版与嵌入视频 → 目标软件实播 → 按需导出并检查 MP4。
+
+这次补充的经验：
+
+- 免费实拍路线同样需要逐条记录来源、许可和使用区间。
+- 文字不能被后续浪花或旗面遮住，选素材要看完整运动过程。
+- 延长时长优先使用更长原片，必要时才慢放与插值，不能把补帧称为原生高帧率。
+- 多组淡入先列绝对时序，再转换相对延迟，避免累加。
+- Keynote 导出中的额外等待、额外末帧都要从真实成片检查。[具体处理](references/native-authoring.md)
 
 ## 辅助脚本
 
 ```bash
-# 只读检查现有PPTX结构，不启动放映
+# 只读检查 PPTX 结构，不启动放映
 python3 scripts/inspect_pptx.py path/to/deck.pptx
 
-# 本仓库的离线静态检查，不运行创作脚本
+# 离线静态检查，不运行创作与转码
 python3 scripts/check_package.py
 ```
 
-可选转码配方见[媒体处理](references/media-recipes.md)。本次没有运行新素材转码来验证该辅助脚本。旧案例中依赖专有SDK与样本XML的构建包装未随包分发，详见[原生制作方法](references/native-authoring.md)。
+辅助脚本仍只有静态审查证据，实际作品使用的宿主工具和案例代码不构成这些脚本已通过独立复现测试。[媒体配方](references/media-recipes.md) · [验收标准](references/acceptance.md)
 
-## 交付与验收
+## 常见问题
 
-交付可编辑PPTX、背景素材和用户要求的MP4。验收分别记录包结构、目标软件实际放映、成片参数与观看结果；不能只靠“文件生成成功”。[完整验收标准](references/acceptance.md)
-
-密钥只由宿主安全配置提供，不写入提示词示例、代码或报告。不自动重试付费调用，不默认上传、发布、安装或改Agent配置。
-
-## Troubleshooting
-
-| 现象 | 原因与处理 |
+| 现象 | 处理 |
 |---|---|
-| 货轮回到起点 | 素材首尾不连续；关闭循环，单次播放后切页 |
-| 字幕出不完背景先停 | 对象延迟累加；短片用一组一次淡入，提前出字并实播 |
-| 编辑态文字全在 视频单独播放没有淡入 | 编辑态及媒体预览不代表整页时序；从页首完整放映 |
-| 60fps仍不自然 | 插值不能修复所有运动问题；观察浪边和船体，不只看帧率 |
-| 换机器排版变化 | 字体替换或跨软件时序差异；换合法字体并重新放映 |
+| 素材不错，却像风景宣传片 | 先确定汇报用途和收尾文案，景观为表达服务 |
+| 主体回到起点 | 关闭不连续循环，单次播放后切页 |
+| 文字出不完，视频先停 | 缩短累计延迟，给完整文字留阅读时间 |
+| 编辑态文字全在，视频预览没有淡入 | 从幻灯片页首完整放映，不能只点媒体播放 |
+| 导出视频出现长停帧 | 检查追加的翻页等待、视频真实时长及多余末帧 |
+| 60fps 仍不自然 | 检查原始运动和插值瑕疵，帧率不是审美与流畅的唯一标准 |
+| 换设备版式变化 | 处理字体替换，并在目标软件重新放映 |
 
-## 许可证与发布状态
+## 许可与公开范围
 
-作者代码与文档：[MIT](LICENSE)。演示媒体与字体等外部权利独立处理，**不随MIT授予素材复用权**。原始第三方参考视频、账户信息、私有工具代码和系统字体均已排除。
+作者代码和说明文档使用 [MIT](LICENSE)。**案例视频、GIF、截图和 PPTX 中的外部素材不随 MIT 授权**，按各自许可处理。新增实拍素材适用 Pexels License，音乐适用 Mixkit Stock Music Free License；原 AI 案例继续保留独立权利说明。[第三方说明](THIRD_PARTY_NOTICES.md)
 
-[第三方及素材授权核对](THIRD_PARTY_NOTICES.md)列明供应商输出权利与公开展示/服务商披露条款的待确认事项。作者已确认本次公开清单及案例展示范围。媒体不附普遍复用许可，也不声称取得供应商官方背书；第三方再使用应自行核对相关权利与条款。
+原始第三方参考视频、独立原素材/音乐、字体文件、密钥、私人路径和专有工具未打包。下载 PPTX 不代表获得素材的独立图库分发权。无供应商或画面主体背书。
 
-[v0.1.0发布说明](docs/RELEASE-NOTES.md) · [公开范围与确认记录](docs/PUBLICATION-REVIEW.md)
+此次更新不安装 Skill、不调用生成 API、不创建新测试作品、不改 Agent 配置。[版本记录](docs/RELEASE-NOTES.md) · [公开范围](docs/PUBLICATION-REVIEW.md)

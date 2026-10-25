@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "scope": "all proposed source-tree files except this self-manifest and .git",
+  "version": "0.2.0",
+  "scope": "source tree excluding .git and this self-manifest; release assets listed separately",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,28 +19,33 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 5338,
-      "sha256": "286c3df6c0a9c0e3fd0db8fd13565e65acd4040d92c40296f5fe42325aa029d3"
+      "bytes": 6782,
+      "sha256": "1ef382242d694711349256afbf86811970c881330b2fbeaad69ca82e00222bbb"
     },
     {
       "path": "README.md",
-      "bytes": 5976,
-      "sha256": "7e77ff745e873a55f8f387399acb9c95e20087e57a4384ad9249ffb65e22d222"
+      "bytes": 7045,
+      "sha256": "7abf3e24bf558479c7245627e80b6cdcb668009206e16d5e360db024322ae0c0"
     },
     {
       "path": "SKILL.md",
-      "bytes": 5367,
-      "sha256": "c04b1576494b8c07295b5a3e60912fd202007c479378538e7e4cdaa54152bd29"
+      "bytes": 6470,
+      "sha256": "64a721c2ab7b0548c10191b589891353c63756725ba17f2f7d7997bef6d1eba5"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 3156,
-      "sha256": "9e82a8582130453392d3c3975205af98d20de3344909dfe0ebc1487b00d7d188"
+      "bytes": 4248,
+      "sha256": "992a5f2c3d696faeaad90f116b6cf6fae13b2d098c4c4cba407fa08e9ef65fc7"
     },
     {
       "path": "agents/interface.yaml",
       "bytes": 440,
       "sha256": "bff5ffba2ab8c974af31577f41654b41d8c7b107bf8ffb517dbdde0954fc5e31"
+    },
+    {
+      "path": "docs/CASE-LIBRARY.md",
+      "bytes": 2035,
+      "sha256": "73f5f4e68bd16c56299b90efb8b5b1899b5db9c32d7db70a39d64024f5ad09cd"
     },
     {
       "path": "docs/CASE-STUDY.md",
@@ -49,28 +54,53 @@
     },
     {
       "path": "docs/GITHUB-METADATA.json",
-      "bytes": 609,
-      "sha256": "4ecd3eccc4c65d1257a96d00494f0b1d7dd5b5857c987c6ba585485b0d0bec0c"
+      "bytes": 673,
+      "sha256": "4db51d0ad72d29a96634d8a38ac1cef0f500450823fb2fcf7427d3f17490c823"
+    },
+    {
+      "path": "docs/MEDIA-SOURCES.md",
+      "bytes": 3812,
+      "sha256": "c6c0332773eb3c00b7d2dcdd2a474fbfe4b44742ac1d5e835595dc06a17a3056"
     },
     {
       "path": "docs/PUBLICATION-REVIEW.md",
-      "bytes": 1574,
-      "sha256": "2533777782a22ebd9e42efc3fdd5921b94859676a4cbf3430abe5b55286708c4"
+      "bytes": 1438,
+      "sha256": "ab2ca16ccd07dc294fd1d1803e8c40b827a5f81e9a8d4bb1878aeb2e095ecf99"
+    },
+    {
+      "path": "docs/QUICK-TUTORIAL.md",
+      "bytes": 1358,
+      "sha256": "d52a54d4968f1b53e0c432efc3e231351ea4ce4be8c789d8b5262a8e31584df6"
     },
     {
       "path": "docs/RELEASE-NOTES.md",
-      "bytes": 830,
-      "sha256": "b05af0b45eb18da59cd1c2bb54b653eddf4659c207f84cf248ff55d54814ead3"
+      "bytes": 1601,
+      "sha256": "b987d14d6e8370c737caf2914f74dd0577ca2377b76685b5c1b9c8940937515a"
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1066,
-      "sha256": "4e77fd554e735d527ca09e607d92b459603d2c2132d2e2a9532072624b691b28"
+      "bytes": 1544,
+      "sha256": "a782b33188b2728ac41232a60b781289cc62eb6ad4d0fe6811e3568a5c3ee382"
     },
     {
       "path": "docs/assets/LICENSE.txt",
-      "bytes": 750,
-      "sha256": "2c6f55d2f572430ed58cb78c0fd991409899c41bd18014f619820a5f960ad8a8"
+      "bytes": 854,
+      "sha256": "63127b00e9e7fe86cfdc7b270e9c817d9f5997ca0ba085d2bcf32b44f99b01cd"
+    },
+    {
+      "path": "docs/assets/chengshi-er-shang/demo.gif",
+      "bytes": 2834889,
+      "sha256": "111a2be71115cca92e7ff04bb61fc95da1eb7e266782ff392645ff9b5fac9b5c"
+    },
+    {
+      "path": "docs/assets/chengshi-er-shang/slide-1.jpg",
+      "bytes": 111165,
+      "sha256": "be5352d98db63f4550d0bc6ce59b8f001a3b736a62495775f47144bc1d7d548f"
+    },
+    {
+      "path": "docs/assets/chengshi-er-shang/slide-2.jpg",
+      "bytes": 124527,
+      "sha256": "0f90f27e898e85aeeab876c7e3caf0cc06335f603fb6680d238eb9c1ad7042c0"
     },
     {
       "path": "docs/assets/cover-still.jpg",
@@ -79,13 +109,13 @@
     },
     {
       "path": "docs/assets/cover.png",
-      "bytes": 1839116,
-      "sha256": "18230d62ae4371c33466f3c3d4e7ba0775defbdc0f66a3b6177d244c5d1660d5"
+      "bytes": 1839237,
+      "sha256": "51a9be9f67b5d8f03ca9aaf9440950d1d86ed50636145e74ca983c574a97bf71"
     },
     {
       "path": "docs/assets/cover.svg",
-      "bytes": 296081,
-      "sha256": "a3859e8a17868883976db4ae2bcb8cdc85aeee840ba768a5717ab8c386890468"
+      "bytes": 296082,
+      "sha256": "951b7cbf20b879a16f65a4d4183a6fcd9e711d438de80b569ce04a2e6859dad4"
     },
     {
       "path": "docs/assets/demo.gif",
@@ -94,8 +124,23 @@
     },
     {
       "path": "docs/assets/provenance.json",
-      "bytes": 2729,
-      "sha256": "43caa1f4cff1a3fd96f4ec05be2d42b584975dc23d806da8589a8a7b985e8fca"
+      "bytes": 5950,
+      "sha256": "82a47201abbd7d293d6ef15982cf9ce27525b61d5686db4e7f85eebc07049e85"
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/demo.gif",
+      "bytes": 1284122,
+      "sha256": "81915dd3fb461741e9e51eed1e0082da33915b2494afc154ef660195194fcd3f"
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/slide-1.jpg",
+      "bytes": 40044,
+      "sha256": "3a40ac3d621dd0885f47b756b32256748f3d166669882f18b3aa7471905f27ef"
+    },
+    {
+      "path": "docs/assets/shanhe-zaixin/slide-2.jpg",
+      "bytes": 48711,
+      "sha256": "097c2085c711daf36decbf1f5f61c85d7bc86e8fd169b8142faf3f7578f758a2"
     },
     {
       "path": "docs/assets/slide-1.jpg",
@@ -108,14 +153,39 @@
       "sha256": "5c06b2f613e719c27e7f9a5824b9a1d3e6fc9e0d716d27f942e385846e2b2cf0"
     },
     {
+      "path": "docs/assets/tiandi-zhijian/slide-1.jpg",
+      "bytes": 73740,
+      "sha256": "a6aeefcc5ee2413a9def02da96d45c08fd7ce17d8924f06e1e928cd49589fba1"
+    },
+    {
+      "path": "docs/assets/tiandi-zhijian/slide-2.jpg",
+      "bytes": 52636,
+      "sha256": "467d1e7d1415b11e677a94974b6a7ff94577c5022f92324bd566fb5149b66a15"
+    },
+    {
       "path": "docs/assets/xiang-hai-er-xing.mp4",
       "bytes": 6213521,
       "sha256": "636877f875a199a455586f2f816e7922c97e50895b5379bc86aaaeb35198de06"
     },
     {
+      "path": "docs/cases/chengshi-er-shang.md",
+      "bytes": 1618,
+      "sha256": "1d4b1d493f0bf4a9bd6c327b0d7bb315e4f60e9162fce0f5f91e67a530ed3600"
+    },
+    {
+      "path": "docs/cases/shanhe-zaixin.md",
+      "bytes": 1693,
+      "sha256": "002b623df54f4498e01ce6f3c6fff1b056e0784ace656e393b4bbb4a6717ca72"
+    },
+    {
+      "path": "docs/cases/tiandi-zhijian.md",
+      "bytes": 1428,
+      "sha256": "8a01dd01731507ff17160e98765c9585dad50d319df697609c37afe7fe22dedf"
+    },
+    {
       "path": "evals/trigger_cases.json",
-      "bytes": 952,
-      "sha256": "e40b6730af37b4ce9ebd064acf771657c7244fe2a92b0181e31793e46e7b216f"
+      "bytes": 1140,
+      "sha256": "3aab4333df329043ebaea399beee17cee166cb2dde136086f876d8eb8cd8bdfc"
     },
     {
       "path": "examples/brief.md",
@@ -124,13 +194,18 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 1387,
-      "sha256": "09552223dd0b8196ac4179285a214fea3099d431c48ed6cf789faf2d602cf596"
+      "bytes": 1697,
+      "sha256": "b2a74c6ceeb774962eea9866d51610a2c204a3cf5e91fdcafe46aaf85488bf9d"
     },
     {
       "path": "references/acceptance.md",
       "bytes": 2171,
       "sha256": "a8c26252b12932423c6bbbc7289cf6713b7a440e3301fa2a6f6471c3083420fb"
+    },
+    {
+      "path": "references/licensed-footage.md",
+      "bytes": 1295,
+      "sha256": "6e302fa791b4c2f20462af7de446f792b32f23ea4207013300faf474eec17255"
     },
     {
       "path": "references/media-recipes.md",
@@ -139,18 +214,18 @@
     },
     {
       "path": "references/native-authoring.md",
-      "bytes": 2088,
-      "sha256": "6d30baf3114fe4edd70ed9814117f25852dd558bb41aede2c1e47408e09ef2d7"
+      "bytes": 3280,
+      "sha256": "30da0d2d33433258052bece36d7fe7212c17cfb6ebf923535ba1a901b49a6108"
     },
     {
       "path": "references/visual-standard.md",
-      "bytes": 1946,
-      "sha256": "572b9d8141e89ddff9a234e25d3df134fd0ffb5160530bbe5c6549dc22d3667f"
+      "bytes": 2460,
+      "sha256": "e4cb60327aecc67dcaaf249e42c7a8076a2bbcd93f559681e9563e3b9b67b2b1"
     },
     {
       "path": "references/workflow.md",
-      "bytes": 2310,
-      "sha256": "7b12ed5924b9685f0ec34abc94c11d87a0be8f7f7c8bbdaddeb05a972b94c703"
+      "bytes": 2447,
+      "sha256": "36ca08544312183e379afedb938b56774157f6befc4be4e247e1f95e0c113b99"
     },
     {
       "path": "reports/case-evidence.json",
@@ -158,14 +233,44 @@
       "sha256": "167d8f1896e06989ecb15da45287aca829abc77859fd9f0eda3609f21434f6ce"
     },
     {
+      "path": "reports/case-library.json",
+      "bytes": 3924,
+      "sha256": "2633d13fc68cd2667a6966e6b3708689de82d825d89665d71b7ce50a4c1889af"
+    },
+    {
       "path": "reports/creation-handoff.md",
-      "bytes": 1073,
-      "sha256": "6367caa9e8e326b36b7262510ed2eb11728c5f799e2600e6c1d934c557fe3123"
+      "bytes": 2006,
+      "sha256": "8ee42b2c4c113b93dce5c9ba29aea7b044ef7a19545006b6cbf7a95474ef7cc0"
+    },
+    {
+      "path": "reports/history/README.md",
+      "bytes": 240,
+      "sha256": "b645d760bccfcc82886b945666b3341bb42b1122b2f98e4510cf60351a6c1c01"
+    },
+    {
+      "path": "reports/history/v0.1.0-public-files.json",
+      "bytes": 6245,
+      "sha256": "6c6f725494e1f75bf141a6ab77fb1ed04bb6d9e407e227ab69bbfeb8dbc55e6b"
+    },
+    {
+      "path": "reports/history/v0.1.0-publication-approval.json",
+      "bytes": 1006,
+      "sha256": "b0240ef525e1685194f693e1980b201d6c78aa78ed826a2e81e296d7606705f8"
+    },
+    {
+      "path": "reports/history/v0.1.0-static-review.json",
+      "bytes": 2723,
+      "sha256": "f435990edb3719e7c5399ed9cc249121dd53590b7ceb4282bc478035f0ecf6e3"
     },
     {
       "path": "reports/publication-approval.json",
-      "bytes": 1006,
-      "sha256": "b0240ef525e1685194f693e1980b201d6c78aa78ed826a2e81e296d7606705f8"
+      "bytes": 1016,
+      "sha256": "ac4e25eb1df4afe0a0e58e84fd44ec5552670ce25274fcb22546f9f23b41ff5d"
+    },
+    {
+      "path": "reports/release-assets.json",
+      "bytes": 1863,
+      "sha256": "2a61392ec18d04b4cd634e108a1d01ca537a6b7e030673b262797e44a503291b"
     },
     {
       "path": "reports/reuse-decision.md",
@@ -174,18 +279,18 @@
     },
     {
       "path": "reports/skill-ir.json",
-      "bytes": 1064,
-      "sha256": "9047667b5b2c5bee9032a121f1d8cc79827d5212e95e2113cec5e179fcb8138c"
+      "bytes": 1224,
+      "sha256": "73fa70c51d785a53e04c654d5580d484484db3335df27630ad9bf91c6b3c5296"
     },
     {
       "path": "reports/static-review.json",
-      "bytes": 2723,
-      "sha256": "f435990edb3719e7c5399ed9cc249121dd53590b7ceb4282bc478035f0ecf6e3"
+      "bytes": 2041,
+      "sha256": "070296d681abec0e78a0781b6fb8516409217781d09c836b654d375d4d12f367"
     },
     {
       "path": "scripts/check_package.py",
-      "bytes": 4294,
-      "sha256": "84164a181ee2966809b2593c724219e73bfe50539dd9c4c4d631397abb6ebf6e"
+      "bytes": 4572,
+      "sha256": "511bc7ddd649c0c3239f5e73f78ba5dd7b73292b2ccf0824f26a3113d2a46998"
     },
     {
       "path": "scripts/inspect_pptx.py",

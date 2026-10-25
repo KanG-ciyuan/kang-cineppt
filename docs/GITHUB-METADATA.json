@@ -1,7 +1,7 @@
 {
   "proposed_owner": "KanG-ciyuan",
   "repository_name": "kang-cineppt",
-  "version": "v0.1.0",
+  "version": "v0.2.0",
   "description": "AI电影感动态PPT制作技能：全屏动态背景、可编辑文字与克制淡入，交付PPTX母版及宣传MP4。",
   "topics": [
     "agent-skill",
@@ -14,6 +14,6 @@
     "chinese"
   ],
   "visibility": "public; owner approved",
-  "release_attachments": "Source archive only; original 2K MP4 and PPTX remain local",
-  "metadata_scope": "Owner-approved release intent; live publication state is on GitHub"
+  "release_attachments": "Source archive, three designed MP4 films, two editable PPTX examples, SHA256SUMS",
+  "metadata_scope": "Version and attachment inventory updated; live Description/Topics/Homepage settings unchanged by this update"
 }

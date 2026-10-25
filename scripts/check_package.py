@@ -25,8 +25,11 @@ def check(root):
     skill = (root/'SKILL.md').read_text()
     if not skill.startswith('---\n') or 'name: kang-cineppt\n' not in skill:
         findings.append({'file': 'SKILL.md', 'kind': 'frontmatter'})
-    if manifest['name'] != 'kang-cineppt' or manifest['version'] != '0.1.0':
+    if manifest['name'] != 'kang-cineppt' or not re.fullmatch(r'\d+\.\d+\.\d+', manifest.get('version', '')):
         findings.append({'file': 'manifest.json', 'kind': 'identity_version'})
+    declared_version = re.search(r'^  version: [\"\']([^\"\']+)[\"\']$', skill, re.M)
+    if not declared_version or declared_version.group(1) != manifest.get('version'):
+        findings.append({'file': 'SKILL.md', 'kind': 'version_mismatch'})
     if len(skill.encode()) > 14000:
         findings.append({'file': 'SKILL.md', 'kind': 'oversized_entrypoint'})
     text_suffixes = {'.md', '.py', '.json', '.yaml', '.yml', '.svg', '.txt'}

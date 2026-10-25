@@ -6,7 +6,7 @@
 <path d="M0 0H1600V800H0Z" fill="url(#shade)"/>
 <g fill="#e6f1f2" font-family="Arial,sans-serif">
 <text x="88" y="80" font-size="17" letter-spacing="4">KANG / AGENT SKILL</text>
-<text x="1512" y="80" text-anchor="end" font-size="17" letter-spacing="2">V0.1.0</text>
+<text x="1512" y="80" text-anchor="end" font-size="17" letter-spacing="2">V0.2.0</text>
 <text x="90" y="270" font-size="37" letter-spacing="3">kang</text>
 <text x="82" y="404" font-family="Georgia,serif" font-size="142" letter-spacing="1">CINEPPT</text>
 <path d="M90 451H170" stroke="#c6b687" stroke-width="2"/>

@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "scope": "designed films and two editable presentation examples; standalone source media excluded",
+  "assets": [
+    {
+      "name": "chengshi-er-shang-18s-1080p.mp4",
+      "role": "designed film",
+      "bytes": 21784186,
+      "sha256": "74aadb7b8b38656143884b45ecb2a31db098ec397ea870b30197296fd6241b34",
+      "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s-1080p.mp4"
+    },
+    {
+      "name": "chengshi-er-shang-18s.pptx",
+      "role": "editable designed presentation",
+      "bytes": 24117911,
+      "sha256": "5576295ebf4467b428a33c7ec7212accc1b9dd577d8d50fc1ca03f0b43e9ce8c",
+      "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/chengshi-er-shang-18s.pptx"
+    },
+    {
+      "name": "shanhe-zaixin-18s-1080p.mp4",
+      "role": "designed film",
+      "bytes": 14505033,
+      "sha256": "337f019326dfd7fdabd4293b1c77d1c031eb32bbc2f8e5dbf8fc024ab2d68cb8",
+      "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s-1080p.mp4"
+    },
+    {
+      "name": "shanhe-zaixin-18s.pptx",
+      "role": "editable designed presentation",
+      "bytes": 14433709,
+      "sha256": "d9647a241362b383774ad29e303c432fe19d3ff7919614b4023e32fdb616db66",
+      "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/shanhe-zaixin-18s.pptx"
+    },
+    {
+      "name": "tiandi-zhijian-14.4s-1080p.mp4",
+      "role": "designed film",
+      "bytes": 11968012,
+      "sha256": "d9b29adac48dc3e13981e11d706009c3d95fea12a541c2e1be1ffe99c0a62489",
+      "download_url": "https://github.com/KanG-ciyuan/kang-cineppt/releases/download/v0.2.0/tiandi-zhijian-14.4s-1080p.mp4"
+    }
+  ],
+  "source_archive": "kang-cineppt-v0.2.0-source.zip",
+  "checksums": "SHA256SUMS.txt"
+}
